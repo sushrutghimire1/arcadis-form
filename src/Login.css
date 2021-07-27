@@ -1,0 +1,99 @@
+.heading1{
+    font-size: 25px;
+}
+
+.login{
+    margin-top: 20px;
+    margin-left: 35%;
+    height: 400px;
+}
+
+.inputbox{
+    background-color: lightgray;
+    position: relative;
+    width: 350px;
+    margin-top: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.inputdesc{
+    text-align: left;
+    margin-left: 20px;
+}
+
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid lightcoral;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-left: 20px;
+  }
+
+  .button{
+      background-color: #E45F10;
+      margin-left: 20px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      font-weight: 600;
+      text-align: center;
+      width: 90%;
+      border-radius: 5px;
+      height: 30px;
+      cursor: pointer;
+      margin-top: 10px;
+      padding-top: 1%;
+  }
+
+  .checkbox{
+    margin-left: 20px;
+  }
+
+  .checkbox:hover{
+      border: 1px solid black;
+      
+  }
+
+  @media only screen and (max-width: 360px) {
+    .login{
+        margin-top: 20px;
+        margin-left: 0%;
+        height: 400px;
+    }
+
+    .inputbox{
+        background-color: lightgray;
+        position: relative;
+        width: 230px;
+        margin-top: 20px;
+        padding-top: 20px;
+        overflow: hidden;
+    }
+    
+    .heading1{
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 441px) {
+    .login{
+        margin-top: 20px;
+        margin-left: 4%;
+        height: 400px;
+    }
+
+    .inputbox{
+        position: relative;
+        width: 360px;
+        margin-top: 20px;
+        padding-top: 20px;
+        overflow: hidden;
+    }
+    
+    .heading1{
+        font-size: 20px;
+    }
+  }

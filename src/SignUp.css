@@ -1,0 +1,118 @@
+.heading{
+    font-size: 25px;
+    padding-left: 10%;
+}
+
+.subheading{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.signUpComponent{
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 400px;
+}
+
+.inputbox{
+    position: relative;
+    width: 450px;
+    margin-top: 5px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.sub{
+    padding-top: 20px;
+    color: grey;
+    border-bottom: grey;
+    padding-left: 9px;
+    padding-right: 9px;
+    width: 33%;
+}
+
+.sub1{
+    padding-top: 20px;
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+
+.inputdesc{
+    text-align: left;
+    margin-left: 20px;
+}
+
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid lightcoral;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-left: 20px;
+  }
+
+  input[type=password], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid lightcoral;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-left: 20px;
+  }
+
+  .button{
+      background-color: #E45F10;
+      margin-left: 20px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      font-weight: 600;
+      text-align: center;
+      width: 90%;
+      border-radius: 5px;
+      height: 30px;
+      cursor: pointer;
+      margin-top: 10px;
+      padding-top: 1%;
+  }
+
+  .checkbox{
+    margin-left: 20px;
+  }
+
+  .checkbox:hover{
+      border: 1px solid black;
+      
+  }
+
+  @media only screen and (max-width: 1092px) {
+    .sub1 {
+      display: none;
+    }
+
+    .sub{
+        width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .signUpComponent{
+        margin-top: 20px;
+        margin-left: 0%;
+        margin-right: 35%;
+        height: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 441px) {
+    .signUpComponent{
+        margin-top: 20px;
+        margin-left: 4%;
+        margin-right: 0%;
+        height: 400px;
+    }
+  }
